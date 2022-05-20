@@ -1,0 +1,31 @@
+{
+    "name": "root/slim4-modular-app",
+    "autoload": {
+        "psr-4": {
+            "Slim4ModularApp\\": "src/"
+        },
+        "files": [
+            "src/Bootstrap/App.php",
+            "src/Bootstrap/Server.php",
+            "src/Route.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Fajar Abdi Nugraha"
+        }
+    ],
+    "require": {
+        "slim/slim": "4.*",
+        "nyholm/psr7": "^1.5",
+        "nyholm/psr7-server": "^1.0",
+        "imefisto/psr-swoole-native": "^1.1",
+        "doctrine/orm": "^2.12",
+        "doctrine/dbal": "^3.3",
+        "doctrine/annotations": "^1.13",
+        "symfony/yaml": "^6.0",
+        "symfony/cache": "^6.0",
+        "php-di/php-di": "*",
+        "spiral/roadrunner": "^2.9"
+    }
+}
